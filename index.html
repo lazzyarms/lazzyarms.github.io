@@ -14,7 +14,7 @@
   </div>
   <div class="nav">
     <a href="/Grid.html">Link 1</a>
-    <a href="#2">Link 2</a>    
+    <a href="#footer-1">Link 2</a>    
   </div>
   <div class="container">
     <!-- Side Content -->
@@ -35,16 +35,36 @@
 
     <!-- Main Content -->
     <div class="main_content">
+        <input type="text" placeholder="Username">
+        <br>
+        <br>
+        <input type="password" placeholder="Password">
+        <br>
+        <br>
+        <button id="login">Login</button>
+        <input id="output" placeholder="Result" type="text">
+
       <h2>Soumyadip Sen</h2>
       <h4>DOB: 29 May 1998</h4>
       <img src="/images/_DSC3125.JPG" alt="">
-      
     </div>
   </div>
 
   <!-- Footer -->
-  <div class="footer">
+  <div id="footer-1" class="footer">
     Thank You
   </div>
+
 </body>
+<script>
+    // const login=document.getElementById("login");
+    const login=document.querySelector(".hobbies");
+    login.addEventListener("click",()=>{
+        const user=document.querySelector("input[type=text]");//elements
+        const pass=document.querySelector(".main_content > input[type=password]");
+
+        document.getElementById("output").value= user.value+pass.value;
+    })
+
+</script>
 </html>
