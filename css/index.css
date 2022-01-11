@@ -1,0 +1,46 @@
+.header{
+    padding: 100px;
+    background-color: aqua;
+    text-align: center;
+    color: rgb(92, 2, 92);
+}
+.nav{
+    background-color: #333;
+    color: white;
+    height: 50px;
+    display: grid;
+    padding: 0;
+    grid-template-columns: 80px 80px;
+    grid-gap: 10px;
+
+}
+.nav > a{
+    text-align: center;
+    padding: 15px;
+    background-color: aliceblue;
+}
+.container{
+    display: grid;
+    grid-template-columns: 20% auto;
+}
+.side_content{
+    padding: 20px;;
+    background-color:rgb(206, 197, 197) ;
+}
+.main_content{
+    padding: 20px;
+    background-color: #ddd;
+    
+}
+.main_content > img{
+    width: 100%;
+}
+.hobbies > p{
+    padding: 10px;
+    background-color: aliceblue;
+}
+.footer{
+    text-align: center;
+    background-color: rgba(97, 84, 84, 0.867);
+    padding: 20px;
+}
