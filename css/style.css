@@ -1,0 +1,50 @@
+/* index.html */
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;   
+}
+
+.box{    
+    background-color: rgb(244, 252, 249);
+    padding: 20px;
+    border: 1px solid;
+    box-shadow: 5px 10px #888888;   
+    
+}
+.box > h2{
+    text-align: center;
+    
+}
+
+/* page1.html */
+.header{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 100px;
+}
+.mainbody{
+    display: grid;
+    grid-template-columns: 25% auto;
+}
+.sidecontent{
+    background-color: blue;
+    text-align: center;
+    
+}
+.maincontent{
+    background-color: blueviolet;
+    text-align: center;
+}
+.navbar{
+    background-color: #2ecc71;
+    padding: 10px;
+}
+.btn{
+    border: 1px solid #0f466b;
+    background: #4395cc;
+    font-size: 20px;
+    padding: 10px;
+
+}

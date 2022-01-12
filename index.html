@@ -1,70 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/index.css">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Rock School</title>
 </head>
 <body>
-  <div class="header">
-      <h1>My Website</h1>
-      <h4>Created by soumyadip</h4>
-  </div>
-  <div class="nav">
-    <a href="/Grid.html">Link 1</a>
-    <a href="#footer-1">Link 2</a>    
-  </div>
-  <div class="container">
-    <!-- Side Content -->
-    <div class="side_content">
-      <h2>About Me</h2>
-      <h4>Photo of me</h4>
-      <img src="/images/my_photo.jpg" alt="my photo">
-      <p>Hi my name is Soumyadip Sen. I am a MCA student from BVICAM.</p>
-
-      <!-- hobbies -->
-      <div class="hobbies">
-        <h3>Hobbies</h3>
-        <p>Piano</p>
-        <p>Cycling</p>
-        <p>Badminton</p>
-      </div>      
-    </div>
-
-    <!-- Main Content -->
-    <div class="main_content">
-        <input type="text" placeholder="Username">
-        <br>
-        <br>
-        <input type="password" placeholder="Password">
-        <br>
-        <br>
-        <button id="login">Login</button>
-        <input id="output" placeholder="Result" type="text">
-
-      <h2>Soumyadip Sen</h2>
-      <h4>DOB: 29 May 1998</h4>
-      <img src="/images/_DSC3125.JPG" alt="">
-    </div>
-  </div>
-
-  <!-- Footer -->
-  <div id="footer-1" class="footer">
-    Thank You
-  </div>
-
+    <div class="container">
+        <div class="box">
+            <h2>Sign</h2>
+            <p>Enter you Email id</p>
+            <input id="user" type="text" placeholder="Username">
+            <p>Enter password</p>
+            <input id="pass" type="password" placeholder="Password">
+            <br> <br>
+            <button id="login">Login</button>
+            <br>
+            <p id="notification"></p>
+        </div>      
+    </div> 
+    
 </body>
-<script>
-    // const login=document.getElementById("login");
-    const login=document.querySelector(".hobbies");
-    login.addEventListener("click",()=>{
-        const user=document.querySelector("input[type=text]");//elements
-        const pass=document.querySelector(".main_content > input[type=password]");
-
-        document.getElementById("output").value= user.value+pass.value;
-    })
-
-</script>
+<script src="/javascript/javascript.js"></script>
 </html>
