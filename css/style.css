@@ -1,50 +1,62 @@
-/* index.html */
-.container{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;   
+*{
+    padding: 0px;
+    margin: 0px;
 }
-
-.box{    
-    background-color: rgb(244, 252, 249);
-    padding: 20px;
-    border: 1px solid;
-    box-shadow: 5px 10px #888888;   
-    
-}
-.box > h2{
-    text-align: center;
-    
-}
-
-/* page1.html */
 .header{
-    background-color: aquamarine;
-    text-align: center;
-    padding: 100px;
-}
-.mainbody{
-    display: grid;
-    grid-template-columns: 25% auto;
-}
-.sidecontent{
-    background-color: blue;
-    text-align: center;
+
+    background-image: url("/Images/matt-botsford-OKLqGsCT8qs-unsplash.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
     
 }
-.maincontent{
-    background-color: blueviolet;
-    text-align: center;
+.logo>img{
+    width: 70px;
+    padding: 1em;
 }
-.navbar{
-    background-color: #2ecc71;
-    padding: 10px;
+.nav{
+    /* background-color: aqua; */
+    display: flex;
+    position: absolute;
+    justify-content: end;
+    top: 8px;
+    right: 16px;
+    width: 100%;
 }
-.btn{
-    border: 1px solid #0f466b;
-    background: #4395cc;
-    font-size: 20px;
-    padding: 10px;
+a{
+    color:white;
+    text-decoration: none;
+    font-family: 'Sen', sans-serif;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 2px;
+}
+.nav>a:hover{
+    color: black;
+    background: yellow;
+    box-shadow: 0px 0 7px #00000018;
+}
+.text{
+    margin-top: 180px;
+    margin-left: 100px;
+    color: white;
+    font-size: 25px;
+    border-left: 7px solid white;
+    padding-left: 12px;
+}
 
+.text>p, .text>h1{
+    font-family: 'Sen', sans-serif;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.text>p{
+    color: yellow;
+}
+.cards > div > img{
+    width: 100%;
+  
 }
