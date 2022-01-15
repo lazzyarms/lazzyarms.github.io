@@ -15,26 +15,30 @@
     
 </head>
 <body>
-    <div class="header">
+    <div class="header" id="header">
         <!-- logo -->
         <div class="logo">
             <img src="/Images/color-wheel.png" alt="Logo">
         </div>
-
         <!-- navigation bar -->
         <div class="nav">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Courses</a>
-            <a href="#">Contact</a>
+            <a href="#header">Home</a>
+            <a href="#course">Courses</a>
+            <a href="#about_us">About</a>
+            <a href="#contact_us">Contact</a>
         </div>
 
         <!-- School of music -->
         <div class="text">
-            <h1>Soumyadip School of Music</h1>
+            <h1>Satrajit School of Music</h1>
             <p>Develop your sence of music</p>
         </div>
     </div>
+
+    <div class="courses" id="course">
+        <h3>Courses</h3>
+    </div>
+    <!-- cards -->
     <div class="cards">
         <div class="piano">
             <img class="image" src="/Images/piano.jpg" alt="">
@@ -44,10 +48,11 @@
 
         </div>
         <div class="guitar">
-            <img class="image" src="/Images/guitar.jpg" alt="">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Perspiciatis fugit placeat ratione magnam excepturi dicta aut,
                 voluptates sint vel tempore.</p>
+            <img class="image" src="/Images/guitar.jpg" alt="">
+            
 
         </div>
         <div class="violin">
@@ -58,7 +63,66 @@
 
         </div>
 
+    </div> 
+    <!-- cards/ -->
+
+    <!-- About -->
+    <div class="about" id="about_us">
+        <h3>About Us</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Nihil excepturi fugit repellendus quasi animi nobis ducimus 
+            ab repellat reiciendis earum obcaecati, minus perferendis nemo 
+            ratione architecto voluptatibus quaerat culpa. Non.
+            <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Temporibus porro aliquam ratione delectus velit in unde corporis 
+            ipsum consequuntur dolorem cupiditate nobis impedit nostrum voluptatum, 
+            hic quibusdam tempore cumque deserunt consequatur exercitationem, repudiandae 
+            culpa! Consectetur commodi reiciendis perspiciatis! Odio, delectus repellat. 
+            Eum aliquid ratione dignissimos iusto accusantium nobis labore iste.
+        </p>
+
     </div>
+    <!-- about/ -->
+
+    <!-- Contact -->
+    <div class="contact" id="contact_us">
+        <h3>Contact Us</h3>
+
+        <div class="container">
+            <div style="text-align:center">
+              
+              <p>Swing by for a cup of coffee, or leave us a message:</p>
+            </div>
+            <div class="row">
+              
+              <div class="column">
+                
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  <label for="country">State</label>
+                  <select id="country" name="country">
+                    <option value="australia">Delhi</option>
+                    <option value="canada">West Bengal</option>
+                    <option value="usa">Chennai</option>
+                  </select>
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                  <input type="submit" value="Submit">
+                
+              </div>
+            </div>
+          </div>
+
+    </div>
+    <!-- contact/ -->
+
+    <footer>
+        <p>© 2022 Soumyadip</p>
+    </footer>
     
 </body>
 </html>
