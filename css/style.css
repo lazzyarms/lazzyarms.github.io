@@ -17,16 +17,15 @@
     padding: 1em;
 }
 .nav{
-    /* background-color: aqua; */
     display: flex;
-    position: absolute;
+    position: fixed;
     justify-content: end;
     top: 8px;
     right: 16px;
     width: 100%;
 }
 a{
-    color:white;
+    color:rgb(0, 0, 0);
     text-decoration: none;
     font-family: 'Sen', sans-serif;
     padding: 5px 10px;
