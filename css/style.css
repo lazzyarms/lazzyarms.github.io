@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    scroll-behavior: smooth;
 }
 .header{
 
@@ -59,4 +60,80 @@ a{
 .cards > div > img{
     width: 100%;
   
+}
+
+.piano, .guitar, .violin{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    padding: 50px;   
+}
+.courses{
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Sen', sans-serif;
+    
+}
+.about>h3{
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Sen', sans-serif;
+}
+.about>p{
+    padding: 50px;
+}
+.contact>h3{
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Sen', sans-serif;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    padding: 50px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgb(238, 238, 43);
+    color: rgb(0, 0, 0);
 }
